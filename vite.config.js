@@ -38,7 +38,7 @@ export default ({ mode }) => defineConfig({
             less: {
                 javascriptEnabled: true,
                 additionalData: [
-                    // `@import "src/styles/color.less";`,
+                    `@import "src/styles/color.less";`,
                 ]
             },
         }

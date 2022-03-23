@@ -16,6 +16,7 @@ export default defineComponent({
 <template>
   {{count}}
   <button @click="count++">点我</button>
+  <p>page</p>
 </template>
 
 <style>

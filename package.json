@@ -12,8 +12,11 @@
     "amfe-flexible": "^2.2.1",
     "autoprefixer": "^10.4.4",
     "less": "^4.1.2",
+    "moment": "^2.29.1",
     "postcss-pxtorem": "^6.0.0",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@types/node": "^12.20.47",
