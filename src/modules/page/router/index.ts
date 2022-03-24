@@ -12,11 +12,11 @@ const router = createRouter({
         ...routes,
     ],
 })
-router.beforeEach((to, from, next) => {
-    if (!window.launched) appLaunch(to, from, next);
-    else {
-         window.app.$store.dispatch('routerStack/saveRoute', { to, from })
-        next();
-    }
-})
+// router.beforeEach((to, from, next) => {
+//     if (!window.launched) appLaunch(to, from, next);
+//     else {
+//          window.app.$store.dispatch('routerStack/saveRoute', { to, from })
+//         next();
+//     }
+// })
 export default router
