@@ -18,8 +18,8 @@ import { Store } from 'vuex';
         const store = <Store<unknown>>app.$store;
         const state = reactive({
             transitionName: 'slide-left',
-            keepAlive: false,
-            routeRecords: false,
+            keepAlive: [],
+            routeRecords: [],
         })
         watch(router.currentRoute, (to:any, from) => {
             if (to.meta.index >= from.meta.index || !from.name) state.transitionName = 'slide-left';

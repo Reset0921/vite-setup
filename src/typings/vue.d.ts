@@ -14,7 +14,8 @@ declare global {
         $route: RouteLocation,
     }
     interface Window {
-        app: app
+        app: app,
+        launched: boolean,
         
     }
 }

@@ -10,7 +10,7 @@ const routes: RouteRecordRaw[] = [
         meta: {
             title: '首页'
         },
-        component: () => import('@/modules/page/views/index.vue')
+        component: () => import('@/modules/index/views/index.vue')
     },
 ]
 export default routes

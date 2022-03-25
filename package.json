@@ -11,9 +11,11 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "autoprefixer": "^10.4.4",
+    "axios": "^0.26.1",
     "less": "^4.1.2",
     "moment": "^2.29.1",
     "postcss-pxtorem": "^6.0.0",
+    "qs": "^6.10.3",
     "vant": "^3.4.6",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14",

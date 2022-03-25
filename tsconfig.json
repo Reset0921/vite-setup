@@ -10,7 +10,7 @@
         "sourceMap": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
-        "skipLibCheck": true, //跳过类型检查
+        // "skipLibCheck": true, //跳过类型检查
         "lib": [
             "esnext",
             "dom"

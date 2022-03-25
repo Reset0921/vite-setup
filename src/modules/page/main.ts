@@ -8,6 +8,9 @@ import moment from "moment";
 import 'moment/dist/locale/zh-cn'
 moment.locale('zh-cn')
 
+/* api */
+import api from '@/api/index'
+
 /* vant */
 import Vant from 'vant';
 import 'vant/lib/index.css';
@@ -33,7 +36,7 @@ Object.keys(globalFunction).forEach(name => window.app['$' + name] = globalFunct
 window.app.$parse = parse;
 window.app.$handle = handle;
 
-// window.app.$api = api;
+window.app.$api = api;
 window.app.$moment = moment;
 app.use(store);
 app.use(router);
